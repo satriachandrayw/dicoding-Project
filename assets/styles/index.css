@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    padding: 20px;
+}
+
+.kolom-kanan{
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+
+.kolom-kiri{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.box {
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    border: 0 solid darkblue;
+}
+
+header{
+    display: inline;
+}
+
+nav{
+    background-color: rgb(49, 77, 78);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(49, 77, 78);
+}
+
+
+img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#aside{
+}
+
+.jumbotron{
+    font-size: 20px;
+    padding: 60px;
+    text-align: center;
+    background-color: cadetblue;
+}
